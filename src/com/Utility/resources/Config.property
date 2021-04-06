@@ -1,0 +1,43 @@
+driver_path_IE=./Drivers/IEDriverServer.exe
+driver_value_IE=webdriver.ie.driver
+browser_name_IE=IE
+
+#--For Chrome driver--!
+
+driver_path_chrome=./Drivers/chromedriver87.exe
+driver_value_chrome=webdriver.chrome.driver
+browser_name_chrome=chrome
+
+url=https://www.comm100.com/ 
+
+DownloadDirectory_path=C:\\Users\\keerthana.naik\\Downloads
+path=C:\\Users\\keerthana.naik\\eclipse-workspace\\selenium_ER\\ICEG\\Documents\
+FileName_xpath=Employee
+#------ENTER YOUR CREDENTIALS HERE--------!
+email=validtest@test.com
+password=validpassword
+
+
+#---Web Elements to Login Page---!
+loginIMG_path=//div/div/img
+UseAnotherAccount_path=//div[text()='Use another account']
+eid_element_xpath=//input[@id='txtEmail']
+password_element_xpath=//input[@id='txtPassword']
+signInButton_element_xpath=//button[@id='lblLogin']
+nextButton_xpath=//*[@class="button ext-button primary ext-primary"]
+
+#---Web Elements Home Page and Downloading page--------!
+HomeButton_xpath=//*[contains(text()," HomePage")]
+HomepageTitle_xpath=//*[contains(text(),"HomePageTitle")]
+expectedTitle_xpath=HomePageTitle
+email1=
+password1=
+email2=test2@test2.com
+password2=
+email3=
+password3=test3
+email4=invalidemail
+password4=invalidpassword
+email5=existingemail
+password5=exstingpassword
+
