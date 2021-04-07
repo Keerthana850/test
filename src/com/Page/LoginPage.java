@@ -115,6 +115,15 @@ public class LoginPage {
 			driver.findElement(By.xpath(conf.getPassWordElement())).sendKeys(conf.getPassword6());
 					
 		}
+		public void clearUserNameTextbox() {
+			driver.findElement(By.xpath(conf.getUserNameElement())).clear();
+			
+		}
+		  
+		public void clearPasswordTextbox() {
+			driver.findElement(By.xpath(conf.getPassWordElement())).clear();
+					
+		}
 		
 		
 		

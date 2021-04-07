@@ -3,23 +3,22 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Test.CheckingEmployees">
+      <class name="com.Test.LoginTest">
         <methods>
-          <include name="uploadingAccidentes"/>
-          <include name="beforeTest"/>
-          <include name="downloadingFiles"/>
-          <include name="addWorkingCenters"/>
+          <include name="login4"/>
+          <include name="closeBrowser"/>
           <include name="initializeDriver"/>
-          <include name="updatingName"/>
-          <include name="uploadingAnexoI"/>
-          <include name="uploadingAnexoII"/>
-          <include name="reportInitiation"/>
-          <include name="checkEmployees"/>
+          <include name="login1"/>
           <include name="login"/>
           <include name="tearDown"/>
-          <include name="closeBrowser"/>
+          <include name="login3"/>
+          <include name="login2"/>
+          <include name="login5"/>
+          <include name="reportInitiation"/>
+          <include name="beforeTest"/>
+          <include name="login6"/>
         </methods>
-      </class> <!-- com.Test.CheckingEmployees -->
+      </class> <!-- com.Test.LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

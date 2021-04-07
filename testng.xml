@@ -5,18 +5,18 @@
 		<parameter name="browser" value="chrome"></parameter>
 
 		<classes>
-			<class name="com.Test.RegisterSession_Location">
+			<class name="com.Test.LoginTest">
 
 				<methods>
 					<include name="login"></include>
-				    <include name="NewSession"></include> 
-				    <include name="RegisterSessionWorkFlow"></include> 
+				    <include name="login1"></include> 
+				    <include name="login2"></include> 
 				     
-                    <include name="CancelRegisterSession"></include> 
-				    <include name="RegisteredSession_UpcomingSession"></include> 
-					<include name="RegisteredByAdminScreen"></include>
-                    <include name="RegisterSessionLocation"></include>
- 			        <include name="CancelRegisterSessionLocation"></include>
+                    <include name="login3"></include> 
+				    <include name="login4"></include> 
+					<include name="login5"></include>
+                    <include name="login6"></include>
+ 			        <include name="login7"></include>
  			     </methods>
 			</class>
 		</classes>

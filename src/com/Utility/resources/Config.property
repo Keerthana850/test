@@ -4,11 +4,11 @@ browser_name_IE=IE
 
 #--For Chrome driver--!
 
-driver_path_chrome=./Drivers/chromedriver87.exe
+driver_path_chrome=./Drivers/chromedriver.exe
 driver_value_chrome=webdriver.chrome.driver
 browser_name_chrome=chrome
 
-url=https://www.comm100.com/ 
+url=https://secure.comm100.com/login.aspx
 
 DownloadDirectory_path=C:\\Users\\keerthana.naik\\Downloads
 path=C:\\Users\\keerthana.naik\\eclipse-workspace\\selenium_ER\\ICEG\\Documents\
@@ -24,7 +24,7 @@ UseAnotherAccount_path=//div[text()='Use another account']
 eid_element_xpath=//input[@id='txtEmail']
 password_element_xpath=//input[@id='txtPassword']
 signInButton_element_xpath=//button[@id='lblLogin']
-nextButton_xpath=//*[@class="button ext-button primary ext-primary"]
+
 
 #---Web Elements Home Page and Downloading page--------!
 HomeButton_xpath=//*[contains(text()," HomePage")]
@@ -40,4 +40,8 @@ email4=invalidemail
 password4=invalidpassword
 email5=existingemail
 password5=exstingpassword
+email5=invalidinvalidinvalidinvalidinvalidinvalidinvalidinvalidinvalidinvalidinvalid
+password5=passwordinvalidinvalidvvinvalidpasswordinvalidinvalidvvinvalidvvpassword
+email6=e
+password6=p
 
